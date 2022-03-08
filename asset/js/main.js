@@ -11,4 +11,6 @@ let colore = prompt("Qual è il tuo colore preferito?");
 console.log(colore);
 
 // PASSWORD GENERATOR
-document.getElementById("psw-gen").innerHTML = "La tua password è: " + nome + cognome + colore + 21;
+// document.getElementById("psw-gen").innerHTML = "La tua password è: " + nome + cognome + colore + 21;
+document.getElementById("psw-gen").innerHTML = `La tua password è: ${nome}${cognome}${colore}21`;
+
